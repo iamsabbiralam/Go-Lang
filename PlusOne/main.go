@@ -21,6 +21,6 @@ func plusOne(digits []int) []int {
 		}
 	}
 
-	digits = append(digits, digits...)
+	digits = append([]int{1}, digits...)
 	return digits
 }
